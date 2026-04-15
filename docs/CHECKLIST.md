@@ -1,0 +1,8 @@
+- [ ] Instalar dependências Python
+- [ ] Configurar arquivo .env com chave OpenAI
+- [ ] Iniciar servidor FastAPI (backend/main.py)
+- [ ] Abrir interface web no navegador
+- [ ] Testar envio de mensagem primeira conversa
+- [ ] Testar upload de documento
+- [ ] Testar alteração de tema
+- [ ] Testar histórico de conversas

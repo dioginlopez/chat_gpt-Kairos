@@ -1,0 +1,9 @@
+- Verify that the copilot-instructions.md file in the .github directory exists.
+- Clarify Project Requirements ✓
+- Scaffold the Project ✓  
+- Customize the Project ✓
+- Install Required Extensions (N/A - Python project)
+- Compile the Project
+- Create and Run Task
+- Launch the Project
+- Ensure Documentation is Complete

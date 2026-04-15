@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="new-chat-btn" id="newChatBtn">
+                    <span>+ Nova Conversa</span>
+                </button>
+            </div>
+            
+            <div class="conversations-list" id="conversationsList">
+                <!-- Conversations will be populated here -->
+            </div>
+            
+            <div class="sidebar-footer">
+                <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+                    🌙
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <!-- Chat Messages -->
+            <div class="messages-container" id="messagesContainer">
+                <div class="welcome-message">
+                    <h1>ChatGPT Clone</h1>
+                    <p>Bem-vindo! Comece uma conversa ou selecione uma existente.</p>
+                </div>
+            </div>
+
+            <!-- Chat Input Area -->
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <button class="upload-btn" id="uploadBtn" title="Upload de arquivo">
+                        📎
+                    </button>
+                    <input type="file" id="fileInput" hidden accept=".pdf,.txt,.docx,.md">
+                    
+                    <input 
+                        type="text" 
+                        id="messageInput" 
+                        class="message-input" 
+                        placeholder="Escreva sua mensagem..."
+                        autocomplete="off"
+                    >
+                    
+                    <button class="send-btn" id="sendBtn" title="Enviar">
+                        ➤
+                    </button>
+                </div>
+                <p class="input-hint">Pressione Enter ou clique em ➤ para enviar</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
